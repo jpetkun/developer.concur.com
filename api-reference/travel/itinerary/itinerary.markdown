@@ -244,6 +244,7 @@ The Bookings parent element contains a Booking child element for each included b
 | WaitListSegments |   |  | The segments that the traveler is waitlisted for this booking. |
 | Warnings |   |  | The warnings associated with the booking. |
 | WebAddresses |   |  | List of web addresses such as emails and pickup URLs associated with this booking. |
+| BookingReferrer |   |  | LBookingReferrer  is used only in specific source  tracking scenarios when there is a need to distinguish between bookings with the same BookingSources coming through different flows. Do not populate without coordinating with your technical contact. The supported values are: Concur Travel, Hipmunk, Sign-in with Concur, Supplier Mobile, Supplier Web |
 
 ##### MiscellaneousChargeOrder elements
 
